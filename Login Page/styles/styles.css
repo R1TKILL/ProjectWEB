@@ -1,0 +1,54 @@
+
+
+fieldset#fiel1{
+    position: absolute;
+    left: 490px;
+    width: 24%;
+    font-family: "Segoe UI","Arial","Times New Roman";
+
+}   
+
+legend#leg1{
+    font-weight:bold;
+}
+
+fieldset#imglogin{
+    position: absolute;
+    border-radius: 50%;
+    left: 34%;
+    height: 14%;
+    width: 22%;
+}
+
+input#username{
+    display: flex;
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;  
+}
+
+input#password{
+    display: flex;
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+input#check1{
+    position:absolute;
+    left:36px;
+}
+
+input#btnlogin{
+    position: absolute;
+    width: 70%;
+    height: 8%;
+    left:52px;
+    border-radius: 30px;
+    border-color: aqua;
+}
+
+label#lb{
+    position:absolute;
+    left:58px;
+}
