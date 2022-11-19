@@ -1,0 +1,181 @@
+/*Carrossel*/
+div#carroconfig{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -8%;
+}
+
+.slide{
+ width: 1024px; 
+ height: 476px;  
+ overflow: hidden;
+ border-radius: 15px;
+ border: solid 7px rgb(255, 0, 0);
+ transition: all 0.4s;
+}
+
+.slides{
+    width: 5120px;
+    display: flex;
+}
+
+.imagens img{
+    width: 1024px;
+    height: 476px;
+}
+
+
+#atual{
+    margin-left: 0;
+    transition: all 2s;
+}
+
+.btn{
+    position: absolute;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.8cm;
+    margin-top: -5px;
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+
+#voltar{
+    top: 50%;
+    left: 7%;
+}
+
+#avancar{
+    top: 50%;
+    right: 7%;
+}
+
+.balls{
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    top: 87%;
+    margin-top: -45px;
+}
+
+.balls div{
+    transition: all 0.5s;
+    border: 3px solid #fff;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.balls div:hover{
+    background: #fff;
+}
+
+.imgatual{
+    transition: all 0.5s;
+    background: #fff;
+}
+/*Fim do carrossel*/
+
+/*Inicio do Menu de opções*/
+fieldset#fieldMenu{
+    position: absolute;
+    top: 86%;
+    width: 74%;
+    background-color: #fff;
+    border-radius: 8px;
+    border: solid 8px rgb(255, 0, 0);
+}
+
+.divmenu{
+    display: inline;
+}
+
+.label{
+    position: relative;
+    left: 3%;
+    padding: 58px;
+}
+
+.label:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#bordadinamica{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bordadinamica label{
+    text-decoration: none;
+    position: relative;
+}
+
+#bordadinamica label::after{
+content: " ";
+width: 0%;
+height: 4px;
+background-image: linear-gradient(45deg, #FF2500, #FF7100, #eeff00);
+position: absolute;
+left: 21%;
+top: 86px;
+transition: 0.5s ease-in-out;
+}
+
+#bordadinamica label:hover::after{
+    width: 70%;
+}
+
+.f{
+    position: absolute;
+    display: none;
+    border: solid 7px rgb(255, 0, 0);
+    padding: 30px;
+    width: 93%;
+    height: 110%;
+    left: 1%;
+    top: 103%;
+    border-radius: 20px;
+    }
+
+#menus input[type="radio"]:checked + div{
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+#menus input[type="radio"]{
+    display: none;
+}
+
+.sublinhamento label{
+    text-decoration: none;
+    position: relative;
+}
+
+.sublinhamento label::after{
+content: " ";
+width: 105%;
+height: 4px;
+background-image: linear-gradient(45deg, #FF2500, #FF7100, #eeff00);
+position: absolute;
+left: 0%;
+top: 46px;
+transition: 0.5s ease-in-out;
+}
+/*Fim do menu de opções*/
+

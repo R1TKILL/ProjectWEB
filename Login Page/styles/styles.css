@@ -64,7 +64,9 @@ button#btnlogin{
     background-size: 230%;
     text-transform: uppercase;
     transition: all 0.5s;
-    background-image: -webkit-linear-gradient(left ,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    /*background-image: -webkit-linear-gradient(left ,#00dbde,#fc00ff,#00dbde,#fc00ff);*//*Não apagar*/
+    background-image: -webkit-linear-gradient(left ,#ff9100,#ec2300, #FF7100, #eeff00);
+
     border-color: aqua;
 }
 button:hover{

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/1fce739c64.js" crossorigin="anonymous"></script><!--Link dos ícones-->
+    <title>Menus Wasabi</title>
+</head>
+<body background="pictures/backLanches.jpg">
+
+    <fieldset id="cabeçalho">
+        <fieldset id="iconcarrinho">
+
+        </fieldset>
+    </fieldset>
+
+<!--Carrossel-->
+<div id="carroconfig">
+    <div class="slide">
+        <div class="slides">
+            <div id="voltar" class="btn">
+                <i style="color: rgb(255, 0, 0);" class="fa-solid fa-chevron-left"></i><!--botão de avançar imagem-->
+            </div>
+
+            <div id="avancar" class="btn">
+                <i style="color: rgb(255, 0, 0);" class="fa-solid fa-chevron-right"></i><!--botão de retroceder imagem-->
+            </div>
+
+        <!--imagens do carrossel-->
+        <div id="atual" class="imagens">
+            <img src="pictures/back1.jpg"></img>
+        </div>
+        <div class="imagens">
+            <img src="pictures/back2.jpg"></img>
+        </div>
+        <div class="imagens">
+            <img src="pictures/back3.jpg"></img>
+        </div>
+
+        <!--bolinhas do carrossel-->
+        <div class="balls">
+        </div>
+    </div>
+</div>
+<!--Fim do carrossel-->
+<br><br>
+
+<!--Menu para os Prartos-->
+<fieldset id="fieldMenu">
+    <br>
+        <nav id="bordadinamica">
+            <label class="label" for="c1"><h2 class="divmenu">Promoção</h2></label>
+            <label class="label" for="c2"><h2 class="divmenu">Entradas</h2></label>
+            <label class="label" for="c3"><h2 class="divmenu">Temaki Especial</h2></label>
+            <label class="label" for="c4"><h2 class="divmenu">Wasabi</h2></label>
+        </nav>
+    <br>
+</fieldset>
+
+<br><br><br>
+<div id="menus">
+    <input type="radio" id="c1" name="group">
+<div class="f" id="promocao">
+    <!--***Aréa de conteudo do menu de Promoção***-->
+    <form class="sublinhamento">
+    <h3 style="color: red; font-size: 32pt; position: absolute; top: 2px; left: 41%;"><b>Promoções</b></h3>
+
+    <!--Item 1-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+     <!--Destaque-->   
+    <fieldset style="color: blue; background-color: yellow; border:none; border-radius: 25px; position:absolute; left:38%; top: 10px; width: 30px; height: 13px;">
+       <b> Destaque!</b>
+    </fieldset>
+    <!--Fim do Destaque-->
+
+    <img src="pictures/Promoções/ComboPromo1.jpg"
+     style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Combo Promo 1 (15 peças)</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        10 Hol de Salmão Grelhado com Batata palha Doce <br> e 3 Nigiris de Skin...
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 40,90</b></h2>
+    </fieldset>
+
+    <!--Item 2-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+     <img src="pictures/Promoções/ComboPromo2.jpg"
+     style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+     <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Combo Promo 2 (15 peças)</label>
+     <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        4 Sashimi de Salmão, 2 Gunkas Maçaricado com <br> Molho de Manga...
+     </h4>
+     <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 53,90</b></h2>
+     </fieldset>
+
+    <!--Item 3-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Promoções/ComboPromo3.jpg"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Combo Promo 3 (15 peças)</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        3 Gunkas com Pate de Polvo Apimentado, 2 Nigiris <br> de Kani e Nigiris de Skin...
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 49,90</b></h2>
+    </fieldset>
+
+    <!--Item 4-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+     <img src="pictures/Promoções/ComboPromo4.jpg"
+     style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+     <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Combo Promo 4 (15 peças)</label>
+     <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        5 Makimono de Shimeji com Palha de Couve e <br> 5 Hot Manga com Pipino...
+     </h4>
+     <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 48,50</b></h2>
+     </fieldset>
+    </form>
+     <!--***Fim da área de Promoções***-->
+
+</div>
+    <input type="radio" id="c2" name="group">
+<div class="f" id="Entradas">
+    <!--***Aréa de conteudo do menu de Entradas***-->
+    <form class="sublinhamento">
+    <h3 style="color: red; font-size: 32pt; position: absolute; top: 2px; left: 40%;"><b>Entradas</b></h3>
+
+    <!--Item 1-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Entradas/SalmaoEmConsumer.jpg"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Salmão em Consumer</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        Salmão em Consumer com base de purê de batata <br> doce e Queijo do Sul...
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 39,00</b></h2>
+    </fieldset>
+
+    <!--Item 2-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Entradas/LulaEmAneisGrelhada.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Lula em Anéis Grelhados</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        Anéis de Lula grelhada em fogo brando com <br> Farofa de Polvo...
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 41,00</b></h2>
+    </fieldset>
+
+    <!--Item 3-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Entradas/BolinhasDeSalmaoFrita.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Bolinhas de Salmão fritas</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        10 unidades de salmão temperado com limão e cebolinha <br> enpanados...
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 28,00</b></h2>
+    </fieldset>
+
+    <!--Item 4-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Entradas/CamaraoEmpanado.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Camarão empanado (5 peças)</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        Camarão empando e frito.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 43,50</b></h2>
+    </fieldset>
+    </form>
+    <!--***Fim da área de Entradas***-->
+
+</div>
+    <input type="radio" id="c3" name="group">
+<div class="f" id="temaki">
+    <!--***Aréa de conteudo do menu de Temaki Especial***-->
+    <form class="sublinhamento">
+    <h3 style="color: red; font-size: 32pt; position: absolute; top: 2px; left: 37%;"><b>Temakis Especiais</b></h3>
+
+    <!--Item 1-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Temaki Especial/TemakiExotic.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Temaki exotic</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        Salmão, kani, shimeji fritos na manteiga e cream <br> cheese, arroz e alface.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 41,50</b></h2>
+    </fieldset>
+
+    <!--Item 2-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Temaki Especial/TemakiPoro.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Temaki poró</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        Salmão misturado com alho poró na casquinha da <br> massa harumaki.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 42,50</b></h2>
+    </fieldset>
+
+    <!--Item 3-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Temaki Especial/TemakiSalmao.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Temaki Salmão especial</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        Salmão grelhado na casquinha harumaki e cream cheese.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 43,50</b></h2>
+    </fieldset>
+
+    <!--Item 4-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Temaki Especial/TemakiWasabi.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Temaki super Wasabi</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        Salmão, camarão e kani na massa harumaki com cream <br> cheese arroz e cebolinha.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 45,50</b></h2>
+    </fieldset>
+    </form>
+    <!--***Fim da área de TemakisEspeciais***-->
+
+</div>
+    <input type="radio" id="c4" name="group">
+<div class="f" id="Wasabi">
+    <!--***Aréa de conteudo do menu de Holl Wasabi***-->
+    <form class="sublinhamento">
+    <h3 style="color: red; font-size: 32pt; position: absolute; top: 2px; left: 40%;"><b>Wasabis</b></h3>
+
+    <!--Item 1-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Holl Wasabi/WasabiHollMet.webp"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Wasabi holl met</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        5 peças do holl de salmão grelhado, cream cheese,<br> alga nori, arroz, gergelim e biscoitinhp tempurá.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 23,50</b></h2>
+    </fieldset>
+
+    <!--Item 2-->
+    <fieldset style="position: absolute; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Holl Wasabi/HollTartarSalmaoMet.jfif"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Holl tartar de Salmão met</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px;">
+        5 peças do holl de salmão, arroz, gergelim, alga nori, <br> cream cheese e patê de salmão por cima.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; "><b>R$ 24,50</b></h2>
+    </fieldset>
+
+    <!--Item 3-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 15%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Holl Wasabi/HollTartarSalmao.jpg"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Holl tartar de Salmão</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        10 peças do holl de salmão, cream cheese, arroz, alga nori <br> e gergelim.
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 46,50</b></h2>
+    </fieldset>
+
+    <!--Item 4-->
+    <fieldset style="position: absolute; left: 52%; width: 43%; height: 35%; top: 57%; box-shadow: black 2px 3px 2px;">
+    <img src="pictures/Holl Wasabi/KasaiMet.jpg"
+    style="position: absolute; border: solid 6px transparent; border-image: linear-gradient(to right, #FF2500, #FF7100, #eeff00);  border-image-slice: 1; width: 200px; height: 150px; top: 15px; left: 62%;"></img>
+    <label style="color: rgb(255, 0, 0); font-size: 21pt; position: absolute; top: 53px; left: 2%;">Kasai met</label>
+    <h4 style="color: rgb(167, 153, 153); position: absolute; top: 105px; left: 2%;">
+        5 Peças de holl de camarão, cream cheese envolvidos por <br> fina camada de salmão maçaricado
+    </h4>
+    <h2 style="color: rgb(255, 0, 0); position:absolute; top: 190px; left: 2%; "><b>R$ 23,50</b></h2>
+    </fieldset>
+    </form>
+    <!--***Fim da área de Wasabis***-->
+</div>
+</div>
+<!--Fim do menu-->
+
+<!--Chamada das funções-->
+<script src="functions/function.js"></script>
+<!--Fim das Chamadas das funções-->
+
+
+<!--Inicio botão Zap: Tem que ficar sempre por ultimo na Página!-->
+<head>
+	<meta charset="UTF-8">
+	<title>Botão WhatsApp - whatsapp</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<style>
+		.whatsapp-link {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+		}
+
+		.fa-whatsapp {
+			margin-top: 16px;
+		}
+	</style>
+    
+</head>
+<body>
+	<!--Para onde vai o link-->
+	<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5591981895210" target="_blank">
+		<i class="fa fa-whatsapp"></i>
+	</a>
+</body>
+<!--Fim botão Zap-->
+</body>
+</html>
