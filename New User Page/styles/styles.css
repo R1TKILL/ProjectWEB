@@ -1,0 +1,163 @@
+form.FORM{
+    background: rgb(0, 0, 0, 0.7);
+    color: rgb(244, 244, 245);
+    position: relative;
+    height: 93%;
+    width: 66%;
+    top: 45vh;
+    left: 15%;
+    box-shadow: 0 15px 25px rgb(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.dados{
+    position: relative;
+    left: 7%;
+    margin: 42px;    
+}
+
+input.dados{
+    position: absolute;
+    height: 85%;
+    width: 35%;
+    left: 39%;
+    top: -130%;
+}
+
+input#DDD{
+    position: absolute;
+    left: 29.5%;
+    height: 85%;
+    width: 8%;
+    top: 23%;
+}
+
+input#sexo1{
+    left: 8%;
+}
+
+input#sexo2{
+    left: 30%;
+}
+
+input#sexo3{
+    left: 50%;
+}
+
+label#s1{
+    position: absolute;
+    left: 33%;
+    top: 28%;
+}
+label#s2{
+    position: absolute;
+    left: 55%;
+    top: 28%;
+}
+label#s3{
+    position: absolute;
+     left: 75%;
+     top: 28%;
+}
+
+#TC{
+    position: relative;
+    left: 15%;
+}
+#p1{
+    position: relative;
+    left: 16%;
+}
+#p2{
+    position: relative;
+    left: 16%;
+    color: red;
+    text-decoration: none;
+}
+
+fieldset#fiel1{
+    top: 115%;
+    width: 150%;
+    background-color: rgb(224, 16, 16);
+    left: -24%;
+    height: 13%;
+    position: absolute;
+    border: none;
+}
+
+#text1{
+    position: absolute;
+    top: -6%;
+}
+#text2{
+    position: absolute;
+    top: 34%;
+}
+#text3{
+    position: absolute;
+    left: 56%;
+}
+
+legend{
+    position: absolute;
+    top: -2%;
+    left: 32%;
+}
+
+/*Para imagem do usuario*/
+input[type='file']{
+    display: none;
+}
+
+.max-width{
+    max-width: 500px;
+    width: 100%;
+}
+
+#imgPhoto{
+    aspect-ratio: 16/16;/*Mantem o Padrão em um Tamanho Especifico*/
+    position: relative;
+    left: 38%;
+    max-width: 157px;
+    margin-top: -175px;
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+#imgPhoto:hover{
+    background-color: rgb(180, 180, 180);
+    border: 5px solid #111;
+}
+/*Fim para imagem do usuario*/
+
+#limpar{
+    color: rgb(255, 255, 255);
+    background-color: #ff652f;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    left: 21%;
+    cursor: pointer;
+    font-size: 95%;
+}
+
+#enviar{
+    color: rgb(255, 255, 255);
+    background-color: #ff652f;
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    width: 15%;
+    height: 5%;
+    left: 63%;
+    cursor: pointer;
+    font-size: 95%;
+}
+

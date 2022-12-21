@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<header>
+    <title>Cadastro Wassabi</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"><!--Link do CSS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</header>
+<body background="pictures/backLanches.jpg">
+
+    <form class="FORM" action="" method="post" enctype="multipart/form-data">
+        <br><br>
+        <legend><input type="file" name="imagem" id="imagem" accept="image/*"></legend>
+
+        <span class="span">
+            <img src="pictures/camera.png" alt="Selecione uma Imagem" id="imgPhoto">
+        </span>
+
+        <h2 style="color: #ff652f; margin-top: 5%; position: relative; left: 38%; padding: 4px; 
+            font-size: 142%; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            Cadastre-se já!!
+        </h2>
+        <h2 style="color: #ff652f; position: relative; left: 3%; font-size: 142%; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            Seja um dos nossos clientes e descubras as inúmeras vantagens
+        </h2>
+
+        <h2 class="dados">Nome Completo:* <input class="dados" type="text" placeholder=" Insira seu nome" 
+            name="nome" required>
+        </h2>
+        
+        <h2 class="dados">Idade:* <input class="dados" type="date" name="idade" 
+            placeholder=" Insira sua Idade" required>
+        </h2>
+        
+        <h2 class="dados">E-mail:* <input type="email" class="dados" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="example@example.com"
+             name="email" required>
+            </h2>
+        
+        <h2 class="dados" >CPF:* <input class="dados" type="text" placeholder="xxx.xxx.xxx-xx" 
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength="14" name="cpf" required></h2>
+        
+        <h2 class="dados">Telefone:* <input  type="number" placeholder="DDD" name="DDD" id="DDD" required>
+            <input class="dados" placeholder="Numero" type="text" name="telefone" required></h2>
+        
+        <h2 class="dados">Sexo:*
+            <input class="dados" type="radio" name="sexo" id="sexo1" value="Masculino" required>
+            <label id="s1">Masculino.</label>
+            <input class="dados" type="radio" name="sexo" id="sexo2" value="Feminino" required>
+            <label id="s2">Feminino.</label>
+            <input class="dados" type="radio" name="sexo" id="sexo3" value="Outro" required>
+            <label id="s3">Outro.</label>
+        </h2>
+        
+        <h2 class="dados">Senha:* <input type="password" class="dados" name="senha"
+            id="senha" placeholder="Senha de até  8 caracteres" min="8" max="8" required></h2>
+        
+        <h2 class="dados">Confirmar Senha:* <input class="dados" type="password" name="confsenha"
+            id="confsenha" placeholder="Repita sua senha" min="8" max="8" required></h2>
+
+        <h2><input type="checkbox" title="Deve-se aceitar os termos e Condições" id="TC"  required>
+            <label id="p1">Eu aceito os </label><a href="../Terms and conditions/terms and conditions.html" id="p2">Termos e Condições.</a>
+        <h2>
+
+        <br><br>
+        <input type="reset" value="Limpar" id="limpar"> <input type="submit" value="enviar" id="enviar">
+        <br><br>
+
+    </form>
+    <br><br>
+
+    <script src="functions/function.js"></script>
+
+    <fieldset id="fiel1">
+        <h6 id="text1">© Copyright 2023 - Lanchonete App - Todos os direitos reservados Lanchonete App com<br>
+        Agência de Restaurantes Online S.A.</h6>
+        
+        <h6 id="text2">CNPJ 17.328.605/0007-51 / Avenida das Nações, nº 1291, Vila<br>
+        Yara, Osasco/SP - CEP 06.020-902</h6>
+
+        <h5 id="text3">Agilidade + Código de conduta + Privacidade = Lanchonete App</h5>
+    </fieldset>
+    
+
+</body>
+</html>

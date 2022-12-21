@@ -1,3 +1,30 @@
+/*Cabeçalho e carrinho de compras*/
+
+#cabeçalho{
+position: absolute;
+background-color: #FF2500;
+left: 0%;
+width: 98%;
+height: 13%;
+top: 0%;
+border: none;
+}
+
+#iconcarrinho{
+position: absolute;
+background-color: rgb(241, 122, 122);
+width: 80px;
+left: 90%;
+border: none;
+border-radius: 15px;
+}
+
+#carrinho{
+    
+}
+
+/*Fim do Cabeçalho e carrinho de compras*/
+
 /*Carrossel*/
 div#carroconfig{
     position: absolute;
@@ -8,7 +35,7 @@ div#carroconfig{
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -8%;
+    top: 10%;
 }
 
 .slide{
