@@ -98,13 +98,13 @@ fieldset#fiel1{
     left: 56%;
 }
 
+/*Para imagem do usuario*/
 legend{
     position: absolute;
     top: -2%;
     left: 32%;
 }
 
-/*Para imagem do usuario*/
 input[type='file']{
     display: none;
 }
